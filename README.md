@@ -2,7 +2,7 @@
 
 To validate a candidates skills in developing for mobile applications, we would like you to create a small application. We anticipate this challenge should take no more that 1-2 hours.
 
-The task we would like you to complete is to create a basic app that makes a call to a RESTful web service, and display the data that is returned in the response on the screen of the mobile app, changing the interface (UI) according to the forecast being returned (clear, sunny, raining, etc.). The app only needs to make a single call at launch, and design skills are not being assessed. 
+The task we would like you to complete is to create a basic app that makes a call to a weather (RESTful) web service, and display the data that is returned in the response on the screen of the mobile app, changing the interface (UI) according to the forecast being returned (clear, sunny, raining, etc.). The app only needs to make a single call at launch, and design skills are not being assessed. 
 
 Some key elements we will be looking for in the application are:
 *	Use of suitable design patterns, and a strict separation of concerns when developing a mobile application. 
