@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="weather_header">Weather Forecast</string>
+    <string name="summary">Summary:</string>
+    <string name="forecast">Forecast:</string>
+    <string name="time">Time:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="err_network">Network connection required</string>
+    <string name="err_location">Please check if location is turned on</string>
+    <string name="err_calling_api">Unable to get the Forecast. Please check if network and location is turned on.</string>
+</resources>

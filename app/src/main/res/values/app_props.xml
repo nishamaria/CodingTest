@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="apiServiceEndPoint">https://api.forecast.io/forecast/</string>
+    <string name="apiServiceKey">33b27ea34bd1d522c6441a325d988379</string>
+</resources>

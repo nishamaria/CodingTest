@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="${relativePackage}.${activityClass}">
+
+    <TextView
+            android:id="@+id/headerTextView"
+            android:text="@string/weather_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:layout_margin="@dimen/margin"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+
+    <TextView
+            android:id="@+id/summaryLabelTextView"
+            android:text="@string/summary"
+            android:layout_below="@+id/headerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+    <TextView
+            android:id="@+id/summaryInfoTextView"
+            android:layout_below="@+id/headerTextView"
+            android:layout_toRightOf="@+id/summaryLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+    <TextView
+            android:id="@+id/forecastLabelTextView"
+            android:text="@string/forecast"
+            android:layout_below="@+id/summaryLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+    <TextView
+            android:id="@+id/forecastInfoTextView"
+            android:layout_below="@+id/summaryLabelTextView"
+            android:layout_toRightOf="@+id/forecastLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+    <TextView
+            android:id="@+id/timeLabelTextView"
+            android:text="@string/time"
+            android:layout_below="@+id/forecastLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+
+    <TextView
+            android:id="@+id/timeInfoTextView"
+            android:layout_below="@+id/forecastLabelTextView"
+            android:layout_toRightOf="@+id/timeLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+    <TextView
+            android:id="@+id/temperatureLabelTextView"
+            android:text="@string/temperature"
+            android:layout_below="@+id/timeLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+
+
+    <TextView
+            android:id="@+id/temperatureInfoTextView"
+            android:layout_below="@+id/timeLabelTextView"
+            android:layout_toRightOf="@+id/temperatureLabelTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/data_text_size"
+            android:layout_margin="@dimen/margin"/>
+</RelativeLayout>
